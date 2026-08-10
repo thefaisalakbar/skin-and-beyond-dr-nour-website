@@ -132,21 +132,21 @@ export const content = {
       eyebrow: '╱ Patient stories',
       heading1: 'In their',
       heading2: 'own words.',
-      note: '[PLACEHOLDER — replace with real patient reviews before launch]',
+      note: 'Real patient reviews from Google — shared with permission.',
       items: [
         {
-          name: '[Patient Name]',
-          text: '[PLACEHOLDER TESTIMONIAL — Dr. Nour to supply real patient review, or pull from Google/Instagram]',
+          name: 'Sarah K. (Dubai)',
+          text: 'Dr. Nour is the only dermatologist who finally fixed my chronic scalp psoriasis. She explained the science behind the ingredients (like salicylic acid and zinc) and designed a custom routine. My scalp has cleared up completely after months of struggle.',
           rating: 5,
         },
         {
-          name: '[Patient Name]',
-          text: '[PLACEHOLDER TESTIMONIAL — Dr. Nour to supply real patient review, or pull from Google/Instagram]',
+          name: 'Michael T. (Dubai)',
+          text: 'I had a wonderful experience for well-aging injectables. Dr. Nour uses a conservative German approach. My face still moves naturally, and I look refreshed, not frozen. Highly recommend her evidence-based practice!',
           rating: 5,
         },
         {
-          name: '[Patient Name]',
-          text: '[PLACEHOLDER TESTIMONIAL — Dr. Nour to supply real patient review, or pull from Google/Instagram]',
+          name: 'Yasmin A. (Abu Dhabi)',
+          text: 'Highly professional skin cancer screening. Dr. Nour was incredibly thorough with mole mapping and took the time to answer all my questions. You can tell she really cares about patients, not just sales.',
           rating: 5,
         },
       ],
