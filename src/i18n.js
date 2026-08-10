@@ -1,0 +1,511 @@
+// ============================================================
+// Skin & Beyond by Dr. Nour — Bilingual Content Dictionary
+// All copy lives here. Edit strings to update the site.
+// PLACEHOLDER content is clearly marked — replace before launch.
+// ============================================================
+
+export const content = {
+  en: {
+    dir: 'ltr',
+    nav: {
+      home: 'Home',
+      services: 'Services',
+      about: 'Why Us',
+      gallery: 'Gallery',
+      faq: 'FAQ',
+      contact: 'Contact',
+      cta: 'Book Appointment',
+    },
+    hero: {
+      eyebrow: 'German Board-Certified Dermatologist · Dubai',
+      name: 'Dr. Nour',
+      line1: 'Real science.',
+      line2: 'Well-aging.',
+      subtext:
+        'Evidence-based dermatology for skin that ages with intention — not intervention. Personalized care rooted in clinical rigor, not trends.',
+      ctaPrimary: 'Book a Consultation',
+      ctaSecondary: 'Follow on Instagram',
+      trust: '22K+ following a science-first approach to skin',
+      instaHandle: '@dr.nour_skinandbeyond',
+    },
+    features: {
+      eyebrow: '╱ How we work',
+      heading1: 'Three principles.',
+      heading2: 'One philosophy.',
+      cards: [
+        {
+          eyebrow: '01 / Assessment',
+          title: 'Diagnostic-First',
+          sub: 'No guesswork',
+          text: 'Every visit begins with a full clinical assessment — skin type, history, and goals mapped before any treatment is proposed.',
+        },
+        {
+          eyebrow: '02 / Philosophy',
+          title: 'Well-Aging',
+          sub: 'Prevention over correction',
+          text: 'We treat skin as a long-term relationship. The goal is graceful, healthy aging — not chasing an artificial standard.',
+        },
+        {
+          eyebrow: '03 / Follow-Through',
+          title: 'Continuity of Care',
+          sub: 'Beyond the appointment',
+          text: 'Your plan evolves with your skin. We track progress visit to visit and adjust — care doesn\u2019t end when you leave the room.',
+        },
+      ],
+    },
+    services: {
+      eyebrow: '╱ Treatments',
+      heading1: 'Every service,',
+      heading2: 'one standard of care.',
+      subtext: 'From first consultation to advanced procedures — all delivered under German clinical training.',
+      items: [
+        {
+          icon: 'Microscope',
+          title: 'Skin Consultations & Diagnosis',
+          text: 'A comprehensive assessment of your skin type, concerns, and history — the foundation of every treatment plan.',
+        },
+        {
+          icon: 'Sparkles',
+          title: 'Well-Aging & Anti-Aging Care',
+          text: 'Preventative, science-led treatments designed to support skin health as it changes over time.',
+        },
+        {
+          icon: 'Droplet',
+          title: 'Acne, Rosacea & Pigmentation',
+          text: 'Evidence-based protocols for acne, rosacea, eczema, and uneven pigmentation — for every skin tone.',
+        },
+        {
+          icon: 'Leaf',
+          title: 'Chemical Peels',
+          text: 'Medical-grade resurfacing treatments to refine tone, texture, and clarity.',
+        },
+        {
+          icon: 'SunMedium',
+          title: 'Laser & Light Therapy',
+          text: 'Advanced technology for pigmentation, redness, and skin rejuvenation with minimal downtime.',
+        },
+        {
+          icon: 'Syringe',
+          title: 'Dermal Fillers & Injectables',
+          text: 'Precise, natural-looking aesthetic enhancement — subtlety is always the standard.',
+        },
+        {
+          icon: 'ShieldCheck',
+          title: 'Skin Cancer Screening',
+          text: 'Full-body mole mapping and early detection, because skin health comes before skin aesthetics.',
+        },
+        {
+          icon: 'Gem',
+          title: 'Bridal & Event Skin Prep',
+          text: 'Tailored multi-session programs building toward your milestone moment.',
+        },
+      ],
+    },
+    why: {
+      eyebrow: '╱ Why patients choose Dr. Nour',
+      heading1: 'More than',
+      heading2: 'a consultation.',
+      pillars: [
+        {
+          icon: 'Award',
+          title: 'German Board-Certified',
+          text: 'Trained and certified to rigorous German clinical dermatology standards.',
+        },
+        {
+          icon: 'Microscope',
+          title: 'Evidence-Based, Not Trend-Led',
+          text: 'Every recommendation is grounded in dermatological science — not what\u2019s trending online.',
+        },
+        {
+          icon: 'HeartPulse',
+          title: 'Well-Aging Philosophy',
+          text: 'Care designed around long-term skin health, not chasing a single result.',
+        },
+        {
+          icon: 'Users',
+          title: 'A Trusted Community',
+          text: '22K+ following Dr. Nour\u2019s science-first, no-nonsense approach to skin health.',
+        },
+      ],
+    },
+    testimonials: {
+      eyebrow: '╱ Patient stories',
+      heading1: 'In their',
+      heading2: 'own words.',
+      note: '[PLACEHOLDER — replace with real patient reviews before launch]',
+      items: [
+        {
+          name: '[Patient Name]',
+          text: '[PLACEHOLDER TESTIMONIAL — Dr. Nour to supply real patient review, or pull from Google/Instagram]',
+          rating: 5,
+        },
+        {
+          name: '[Patient Name]',
+          text: '[PLACEHOLDER TESTIMONIAL — Dr. Nour to supply real patient review, or pull from Google/Instagram]',
+          rating: 5,
+        },
+        {
+          name: '[Patient Name]',
+          text: '[PLACEHOLDER TESTIMONIAL — Dr. Nour to supply real patient review, or pull from Google/Instagram]',
+          rating: 5,
+        },
+      ],
+    },
+    insurance: {
+      eyebrow: '╱ Insurance',
+      heading: 'Coverage & Payment',
+      subtext: '[PLACEHOLDER — confirm accepted insurance networks with Dr. Nour\u2019s clinic; self-pay and card payments always accepted]',
+      note: 'Insurance partner logos to be added upon confirmation',
+    },
+    gallery: {
+      eyebrow: '╱ Inside the clinic',
+      heading1: 'A closer',
+      heading2: 'look.',
+      subtext: 'More clinic and treatment-room photography to be added — placeholders marked below.',
+      addPhoto: 'Photo to be added',
+    },
+    faq: {
+      eyebrow: '╱ Common questions',
+      heading1: 'Frequently',
+      heading2: 'asked.',
+      note: '[Defaults below — please confirm or edit with Dr. Nour before launch]',
+      items: [
+        {
+          q: 'Do I need a referral to book a consultation?',
+          a: 'No referral is needed. You can book directly for a first consultation, where Dr. Nour will assess your skin and recommend next steps.',
+        },
+        {
+          q: 'How do I know which treatment is right for my skin?',
+          a: 'Every treatment plan starts with a full diagnostic consultation. Nothing is recommended before your skin type, history, and goals are properly assessed.',
+        },
+        {
+          q: 'Is there downtime after treatments like peels or lasers?',
+          a: 'It depends on the treatment and your skin. Downtime — if any — will be explained clearly during your consultation so you can plan accordingly.',
+        },
+        {
+          q: 'Do you treat medical skin concerns, or only cosmetic ones?',
+          a: 'Both. Dr. Nour treats acne, rosacea, eczema, and pigmentation alongside cosmetic and well-aging concerns, all with the same clinical rigor.',
+        },
+        {
+          q: 'Are treatments suitable for all skin tones?',
+          a: 'Yes — treatment plans are tailored to your specific skin type and tone, with technology and protocols selected accordingly.',
+        },
+        {
+          q: 'How often should I schedule a skin check?',
+          a: 'Generally once a year for a full skin and mole check, though your recommended frequency will depend on your history and risk factors.',
+        },
+      ],
+    },
+    contact: {
+      eyebrow: '╱ Get in touch',
+      heading1: 'Let\u2019s talk',
+      heading2: 'about your skin.',
+      subtext: 'Share a few details and Dr. Nour\u2019s team will follow up to confirm your appointment.',
+      formName: 'Name',
+      formEmail: 'Email',
+      formPhone: 'Phone',
+      formMessage: 'What brings you in?',
+      formMessagePlaceholder: 'Tell us briefly about your skin concern or goal...',
+      submit: 'Send Request',
+      sending: 'Sending...',
+      sentTitle: 'Thank you',
+      sentText: 'We\u2019ve received your request and will be in touch shortly to confirm your appointment.',
+      security: 'Your information is kept confidential and used only to coordinate your visit.',
+      addressLabel: 'Clinic Address',
+      phoneLabel: 'Call Directly',
+      whatsappLabel: 'WhatsApp',
+      emailLabel: 'Email',
+      hoursLabel: 'Working Hours',
+    },
+    footer: {
+      tagline: 'Real science × well-aging.',
+      disclaimer:
+        'Content shared by Dr. Nour is for general awareness and education, not a substitute for an in-person diagnosis or personalized treatment.',
+      servicesTitle: 'Services',
+      clinicTitle: 'Clinic',
+      contactTitle: 'Contact',
+      status: 'Currently accepting new patients',
+      privacy: 'Privacy Policy',
+      terms: 'Terms of Service',
+      rights: 'All rights reserved.',
+    },
+    clinicInfo: {
+      hours: 'Sun \u2013 Thu, 9:00 AM \u2013 6:00 PM',
+      address: '[PLACEHOLDER ADDRESS — e.g. Jumeirah / DIFC / Downtown Dubai, UAE]',
+      phone: '[PLACEHOLDER PHONE NUMBER]',
+      whatsapp: '[PLACEHOLDER WHATSAPP NUMBER]',
+      email: '[placeholder@skinandbeyond.ae]',
+    },
+    whatsappBubble: 'Chat on WhatsApp',
+    chatbot: {
+      launcherIntro: 'Hi! Ask me about our services or book a visit.',
+      name: 'Layla',
+      role: 'Patient Care Assistant',
+      online: 'Online',
+      formTitle: 'Let\u2019s get you connected',
+      formSubtext: 'Share a few details so we can personalize your chat.',
+      name_: 'Name',
+      phone: 'Phone',
+      email: 'Email',
+      question: 'What can we help with? (optional)',
+      consent: 'I agree to be contacted about my enquiry.',
+      start: 'Start Chat',
+      inputPlaceholder: 'Type a message...',
+      send: 'Send',
+      welcomeBack: 'Hi {name}! How can I help with your skin today?',
+    },
+  },
+
+  ar: {
+    dir: 'rtl',
+    nav: {
+      home: 'الرئيسية',
+      services: 'الخدمات',
+      about: 'لماذا نحن',
+      gallery: 'المعرض',
+      faq: 'الأسئلة الشائعة',
+      contact: 'تواصل معنا',
+      cta: 'احجزي موعدك',
+    },
+    hero: {
+      eyebrow: 'استشارية أمراض جلدية معتمدة ألمانياً · دبي',
+      name: 'د. نور',
+      line1: 'علم حقيقي.',
+      line2: 'تقدّم واعٍ في العمر.',
+      subtext:
+        'طب جلدية قائم على الأدلة العلمية لبشرة تتقدّم في العمر بوعي، لا بتدخّل مفرط. عناية شخصية متجذّرة في الدقة السريرية، بعيداً عن صيحات التجميل العابرة.',
+      ctaPrimary: 'احجزي استشارة',
+      ctaSecondary: 'تابعينا على إنستغرام',
+      trust: 'أكثر من 22 ألف متابع لنهج علمي أصيل في العناية بالبشرة',
+      instaHandle: '@dr.nour_skinandbeyond',
+    },
+    features: {
+      eyebrow: '╱ كيف نعمل',
+      heading1: 'ثلاثة مبادئ.',
+      heading2: 'فلسفة واحدة.',
+      cards: [
+        {
+          eyebrow: '01 / التقييم',
+          title: 'التشخيص أولاً',
+          sub: 'لا مجال للتخمين',
+          text: 'تبدأ كل زيارة بتقييم سريري شامل — نوع البشرة، التاريخ الطبي، والأهداف، قبل اقتراح أي علاج.',
+        },
+        {
+          eyebrow: '02 / الفلسفة',
+          title: 'التقدّم الواعي في العمر',
+          sub: 'الوقاية قبل التصحيح',
+          text: 'نتعامل مع البشرة كعلاقة طويلة الأمد. الهدف تقدّم صحي وأنيق في العمر، لا مطاردة معيار مصطنع.',
+        },
+        {
+          eyebrow: '03 / المتابعة',
+          title: 'استمرارية العناية',
+          sub: 'أبعد من الموعد نفسه',
+          text: 'تتطور خطتك مع بشرتك. نتابع التقدّم من زيارة لأخرى ونعدّل — فالعناية لا تنتهي عند مغادرة العيادة.',
+        },
+      ],
+    },
+    services: {
+      eyebrow: '╱ العلاجات',
+      heading1: 'كل خدمة،',
+      heading2: 'بمعيار عناية واحد.',
+      subtext: 'من الاستشارة الأولى إلى الإجراءات المتقدمة — جميعها ضمن تدريب سريري ألماني.',
+      items: [
+        {
+          icon: 'Microscope',
+          title: 'استشارات وتشخيص البشرة',
+          text: 'تقييم شامل لنوع بشرتك ومخاوفك وتاريخك الطبي — أساس كل خطة علاجية.',
+        },
+        {
+          icon: 'Sparkles',
+          title: 'عناية التقدّم الواعي في العمر',
+          text: 'علاجات وقائية قائمة على العلم لدعم صحة البشرة مع مرور الوقت.',
+        },
+        {
+          icon: 'Droplet',
+          title: 'حب الشباب والوردية والتصبغات',
+          text: 'بروتوكولات قائمة على الأدلة لحب الشباب، الوردية، الإكزيما، والتصبغات — لكل درجات البشرة.',
+        },
+        {
+          icon: 'Leaf',
+          title: 'التقشير الكيميائي',
+          text: 'علاجات تجديد طبية الدرجة لتحسين النضارة والملمس والصفاء.',
+        },
+        {
+          icon: 'SunMedium',
+          title: 'العلاج بالليزر والضوء',
+          text: 'تقنيات متقدمة للتصبغات والاحمرار وتجديد البشرة بأقل فترة تعافٍ.',
+        },
+        {
+          icon: 'Syringe',
+          title: 'الحقن والفيلر',
+          text: 'تحسين جمالي دقيق وطبيعي المظهر — البساطة هي المعيار دائماً.',
+        },
+        {
+          icon: 'ShieldCheck',
+          title: 'فحص سرطان الجلد',
+          text: 'رسم خرائط الشامات للجسم بالكامل والكشف المبكر، لأن صحة البشرة تسبق جمالها.',
+        },
+        {
+          icon: 'Gem',
+          title: 'تحضير البشرة للمناسبات والزفاف',
+          text: 'برامج متعددة الجلسات مصممة خصيصاً استعداداً للحظتك المميزة.',
+        },
+      ],
+    },
+    why: {
+      eyebrow: '╱ لماذا يختار المرضى د. نور',
+      heading1: 'أكثر من',
+      heading2: 'مجرد استشارة.',
+      pillars: [
+        {
+          icon: 'Award',
+          title: 'اعتماد ألماني معترف به',
+          text: 'تدريب واعتماد وفق معايير طب الجلدية السريرية الألمانية الصارمة.',
+        },
+        {
+          icon: 'Microscope',
+          title: 'قائم على الأدلة، لا على الصيحات',
+          text: 'كل توصية مبنية على العلم الجلدي — وليس على ما هو رائج في وسائل التواصل.',
+        },
+        {
+          icon: 'HeartPulse',
+          title: 'فلسفة التقدّم الواعي في العمر',
+          text: 'عناية مصممة لصحة البشرة على المدى الطويل، لا لمطاردة نتيجة واحدة سريعة.',
+        },
+        {
+          icon: 'Users',
+          title: 'مجتمع موثوق',
+          text: 'أكثر من 22 ألف متابع لنهج د. نور العلمي الصريح في العناية بالبشرة.',
+        },
+      ],
+    },
+    testimonials: {
+      eyebrow: '╱ آراء المرضى',
+      heading1: 'بكلماتهم',
+      heading2: 'الخاصة.',
+      note: '[نص مؤقت — يُستبدل بآراء حقيقية للمرضى قبل الإطلاق]',
+      items: [
+        {
+          name: '[اسم المريض]',
+          text: '[نص تقييم مؤقت — سيتم استبداله بتقييم حقيقي من د. نور أو من غوغل/إنستغرام]',
+          rating: 5,
+        },
+        {
+          name: '[اسم المريض]',
+          text: '[نص تقييم مؤقت — سيتم استبداله بتقييم حقيقي من د. نور أو من غوغل/إنستغرام]',
+          rating: 5,
+        },
+        {
+          name: '[اسم المريض]',
+          text: '[نص تقييم مؤقت — سيتم استبداله بتقييم حقيقي من د. نور أو من غوغل/إنستغرام]',
+          rating: 5,
+        },
+      ],
+    },
+    insurance: {
+      eyebrow: '╱ التأمين',
+      heading: 'التغطية والدفع',
+      subtext: '[نص مؤقت — يرجى تأكيد شبكات التأمين المعتمدة مع عيادة د. نور؛ الدفع الذاتي والبطاقات مقبولة دائماً]',
+      note: 'ستتم إضافة شعارات شركاء التأمين عند التأكيد',
+    },
+    gallery: {
+      eyebrow: '╱ داخل العيادة',
+      heading1: 'نظرة',
+      heading2: 'عن قرب.',
+      subtext: 'سيتم إضافة المزيد من صور العيادة وغرف العلاج — العناصر النائبة موضحة أدناه.',
+      addPhoto: 'سيتم إضافة الصورة',
+    },
+    faq: {
+      eyebrow: '╱ أسئلة شائعة',
+      heading1: 'الأسئلة',
+      heading2: 'المتكررة.',
+      note: '[الإجابات التالية افتراضية — يرجى المراجعة مع د. نور قبل الإطلاق]',
+      items: [
+        {
+          q: 'هل أحتاج لتحويل طبي لحجز استشارة؟',
+          a: 'لا حاجة لتحويل طبي. يمكنك الحجز مباشرة لاستشارة أولى، حيث تقوم د. نور بتقييم بشرتك واقتراح الخطوات التالية.',
+        },
+        {
+          q: 'كيف أعرف العلاج المناسب لبشرتي؟',
+          a: 'تبدأ كل خطة علاجية باستشارة تشخيصية كاملة. لا يُقترح أي علاج قبل تقييم نوع بشرتك وتاريخك وأهدافك بشكل صحيح.',
+        },
+        {
+          q: 'هل هناك فترة تعافٍ بعد علاجات مثل التقشير أو الليزر؟',
+          a: 'يعتمد ذلك على العلاج وبشرتك. سيتم توضيح فترة التعافي، إن وجدت، بوضوح أثناء استشارتك للتخطيط المسبق.',
+        },
+        {
+          q: 'هل تعالجون المشاكل الجلدية الطبية أم التجميلية فقط؟',
+          a: 'كلاهما. تعالج د. نور حب الشباب والوردية والإكزيما والتصبغات إلى جانب الاهتمامات التجميلية وعناية التقدّم في العمر، بنفس الدقة السريرية.',
+        },
+        {
+          q: 'هل العلاجات مناسبة لجميع درجات لون البشرة؟',
+          a: 'نعم — تُصمم خطط العلاج خصيصاً حسب نوع بشرتك ولونها، مع اختيار التقنيات والبروتوكولات وفقاً لذلك.',
+        },
+        {
+          q: 'كم مرة يجب أن أجدول فحص بشرة؟',
+          a: 'بشكل عام مرة واحدة سنوياً لفحص شامل للبشرة والشامات، إلا أن التكرار الموصى به يعتمد على تاريخك وعوامل الخطر لديك.',
+        },
+      ],
+    },
+    contact: {
+      eyebrow: '╱ تواصلي معنا',
+      heading1: 'لنتحدث',
+      heading2: 'عن بشرتك.',
+      subtext: 'شاركينا بعض التفاصيل وسيتواصل فريق د. نور معك لتأكيد موعدك.',
+      formName: 'الاسم',
+      formEmail: 'البريد الإلكتروني',
+      formPhone: 'رقم الهاتف',
+      formMessage: 'ما الذي يجلبك إلينا؟',
+      formMessagePlaceholder: 'أخبرينا باختصار عن اهتمام بشرتك أو هدفك...',
+      submit: 'إرسال الطلب',
+      sending: 'جارٍ الإرسال...',
+      sentTitle: 'شكراً لك',
+      sentText: 'لقد استلمنا طلبك وسنتواصل معك قريباً لتأكيد موعدك.',
+      security: 'تُحفظ معلوماتك بسرية تامة وتُستخدم فقط لتنسيق زيارتك.',
+      addressLabel: 'عنوان العيادة',
+      phoneLabel: 'اتصلي مباشرة',
+      whatsappLabel: 'واتساب',
+      emailLabel: 'البريد الإلكتروني',
+      hoursLabel: 'ساعات العمل',
+    },
+    footer: {
+      tagline: 'علم حقيقي × تقدّم واعٍ في العمر.',
+      disclaimer:
+        'المحتوى الذي تشاركه د. نور هو لأغراض التوعية والتثقيف العام، وليس بديلاً عن تشخيص حضوري أو علاج شخصي.',
+      servicesTitle: 'الخدمات',
+      clinicTitle: 'العيادة',
+      contactTitle: 'تواصل',
+      status: 'نستقبل مرضى جدد حالياً',
+      privacy: 'سياسة الخصوصية',
+      terms: 'شروط الخدمة',
+      rights: 'جميع الحقوق محفوظة.',
+    },
+    clinicInfo: {
+      hours: 'الأحد – الخميس، 9:00 صباحاً – 6:00 مساءً',
+      address: '[عنوان مؤقت — مثال: جميرا / مركز دبي المالي العالمي / وسط مدينة دبي، الإمارات]',
+      phone: '[رقم هاتف مؤقت]',
+      whatsapp: '[رقم واتساب مؤقت]',
+      email: '[placeholder@skinandbeyond.ae]',
+    },
+    whatsappBubble: 'تواصلي عبر واتساب',
+    chatbot: {
+      launcherIntro: 'مرحباً! اسأليني عن خدماتنا أو احجزي زيارة.',
+      name: 'ليلى',
+      role: 'مساعدة رعاية المرضى',
+      online: 'متصلة الآن',
+      formTitle: 'لنتواصل معك',
+      formSubtext: 'شاركينا بعض التفاصيل لنُخصّص محادثتك.',
+      name_: 'الاسم',
+      phone: 'رقم الهاتف',
+      email: 'البريد الإلكتروني',
+      question: 'كيف يمكننا مساعدتك؟ (اختياري)',
+      consent: 'أوافق على التواصل معي بخصوص استفساري.',
+      start: 'ابدئي المحادثة',
+      inputPlaceholder: 'اكتبي رسالة...',
+      send: 'إرسال',
+      welcomeBack: 'مرحباً {name}! كيف يمكنني مساعدتك بخصوص بشرتك اليوم؟',
+    },
+  },
+}
+
+export default content
