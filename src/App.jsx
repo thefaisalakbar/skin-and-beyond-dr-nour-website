@@ -577,19 +577,24 @@ function Gallery({ t }) {
             <img src={clinicInfo.images.headshot} alt={clinicInfo.doctorName} className="h-full w-full object-cover" />
           </div>
           {[
-            { title: 'Welcoming reception', subtitle: 'Clean, calm entry space' },
-            { title: 'Consultation room', subtitle: 'Comfortable patient seating' },
-            { title: 'Advanced treatment', subtitle: 'Modern dermatology equipment' },
-            { title: 'Relaxing skincare', subtitle: 'Soothing clinic atmosphere' },
-            { title: 'Professional care', subtitle: 'Experienced medical team' },
-            { title: 'Trusted expertise', subtitle: 'Science-backed skin solutions' },
+            { file: 'clinic-reception.svg', title: 'Welcoming reception', subtitle: 'Clean, calm entry space' },
+            { file: 'consultation-room.svg', title: 'Consultation room', subtitle: 'Comfortable patient seating' },
+            { file: 'treatment-suite.svg', title: 'Advanced treatment', subtitle: 'Modern dermatology equipment' },
+            { file: 'lab-tech.svg', title: 'Lab & tech', subtitle: 'Clinical precision and safety' },
+            { file: 'skincare-lounge.svg', title: 'Skincare lounge', subtitle: 'Soothing patient environment' },
+            { file: 'trusted-expertise.svg', title: 'Trusted expertise', subtitle: 'Science-backed skin solutions' },
           ].map((item, n) => (
-            <div key={n} className="rounded-3xl border border-divider bg-gradient-to-br from-white via-surface to-primary/5 p-5 flex flex-col justify-between min-h-[130px] shadow-sm">
-              <div className="space-y-2">
-                <div className="h-12 w-12 rounded-3xl bg-primary/10 flex items-center justify-center text-primary-dark text-lg font-semibold">AI</div>
+            <div key={n} className="rounded-3xl border border-divider bg-surface overflow-hidden shadow-sm">
+              <img
+                src={`/ai-gallery/${item.file}`}
+                alt={item.title}
+                className="h-40 w-full object-cover"
+                loading="lazy"
+              />
+              <div className="p-5">
                 <h3 className="font-display font-semibold text-base text-ink">{item.title}</h3>
+                <p className="text-sm text-muted mt-2">{item.subtitle}</p>
               </div>
-              <p className="text-sm text-muted">{item.subtitle}</p>
             </div>
           ))}
         </div>

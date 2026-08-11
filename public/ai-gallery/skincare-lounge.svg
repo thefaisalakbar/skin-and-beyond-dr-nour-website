@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FDF7ED"/>
+      <stop offset="1" stop-color="#E4E9EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="36" fill="url(#g5)"/>
+  <rect x="60" y="90" width="140" height="130" rx="28" fill="#FFFFFF"/>
+  <rect x="240" y="100" width="150" height="110" rx="28" fill="#F4E7D7"/>
+  <path d="M90 110h90v12H90z" fill="#C5B19E"/>
+  <path d="M90 140h90v12H90z" fill="#C5B19E"/>
+  <circle cx="310" cy="140" r="26" fill="#B67B4C"/>
+  <path d="M290 180h40v18h-40z" fill="#CAA589"/>
+  <text x="100" y="275" fill="#645B52" font-family="Inter, sans-serif" font-size="18">Skincare Lounge</text>
+</svg>

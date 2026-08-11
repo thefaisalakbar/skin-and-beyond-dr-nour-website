@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFAF1"/>
+      <stop offset="1" stop-color="#D8DEE1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="36" fill="url(#g3)"/>
+  <rect x="70" y="90" width="180" height="120" rx="28" fill="#FFFFFF"/>
+  <rect x="310" y="90" width="90" height="120" rx="28" fill="#F4E1C8"/>
+  <path d="M115 120h100v12H115z" fill="#C0B0A0"/>
+  <path d="M115 150h100v12H115z" fill="#C0B0A0"/>
+  <circle cx="350" cy="145" r="14" fill="#A68461"/>
+  <rect x="190" y="80" width="12" height="20" rx="6" fill="#B69F89"/>
+  <text x="90" y="275" fill="#6D6156" font-family="Inter, sans-serif" font-size="18">Treatment Suite</text>
+</svg>
