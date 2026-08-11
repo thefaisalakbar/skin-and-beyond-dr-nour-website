@@ -154,8 +154,8 @@ export const content = {
     insurance: {
       eyebrow: '╱ Insurance',
       heading: 'Coverage & Payment',
-      subtext: '[PLACEHOLDER — confirm accepted insurance networks with Dr. Nour\u2019s clinic; self-pay and card payments always accepted]',
-      note: 'Insurance partner logos to be added upon confirmation',
+      subtext: 'Please confirm your plan details with the clinic before booking, while self-pay and card payments remain available.',
+      note: 'Coverage and accepted networks can vary by treatment and provider.',
     },
     gallery: {
       eyebrow: '╱ Inside the clinic',
@@ -405,8 +405,8 @@ export const content = {
     insurance: {
       eyebrow: '╱ التأمين',
       heading: 'التغطية والدفع',
-      subtext: '[نص مؤقت — يرجى تأكيد شبكات التأمين المعتمدة مع عيادة د. نور؛ الدفع الذاتي والبطاقات مقبولة دائماً]',
-      note: 'ستتم إضافة شعارات شركاء التأمين عند التأكيد',
+      subtext: 'يرجى تأكيد تفاصيل الخطة مع العيادة قبل الحجز، مع بقاء الدفع الذاتي والبطاقات متاحاً.',
+      note: 'قد تختلف التغطية والشبكات المعتمدة حسب العلاج والمزود.',
     },
     gallery: {
       eyebrow: '╱ داخل العيادة',

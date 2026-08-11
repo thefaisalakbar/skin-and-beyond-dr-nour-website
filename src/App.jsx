@@ -525,16 +525,28 @@ function Testimonials({ t }) {
    Insurance strip
 ---------------------------------------------------------------- */
 function Insurance({ t }) {
+  const insuranceLogos = [
+    { file: 'Al SAGR.jpg', alt: 'Al SAGR' },
+    { file: 'Alliance Insurance Company.jpg', alt: 'Alliance Insurance Company' },
+    { file: 'daman-logo.svg', alt: 'Daman' },
+    { file: 'eSanadLogo.0oyl4ccb1fqaj.svg', alt: 'eSanad' },
+  ]
+
   return (
     <section className="relative py-16 px-6 sm:px-10 lg:px-16">
       <div className="max-w-6xl mx-auto text-center">
         <span className="font-mono text-xs uppercase tracking-[0.2em] text-primary-dark">{t.insurance.eyebrow}</span>
         <h2 className="font-display font-medium text-2xl sm:text-3xl text-ink mt-3">{t.insurance.heading}</h2>
         <p className="text-muted text-sm mt-3 max-w-xl mx-auto">{t.insurance.subtext}</p>
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto">
-          {[1, 2, 3, 4].map((n) => (
-            <div key={n} className="h-16 rounded-2xl border border-dashed border-divider bg-surface flex items-center justify-center text-muted text-xs font-mono uppercase tracking-widest">
-              Logo {n}
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          {insuranceLogos.map((logo) => (
+            <div key={logo.file} className="h-24 rounded-2xl border border-divider bg-surface p-4 flex items-center justify-center shadow-sm">
+              <img
+                src={`/Insurance logos/${logo.file}`}
+                alt={logo.alt}
+                loading="lazy"
+                className="max-h-full max-w-full object-contain"
+              />
             </div>
           ))}
         </div>
