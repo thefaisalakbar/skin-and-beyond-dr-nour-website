@@ -542,7 +542,7 @@ function Insurance({ t }) {
           {insuranceLogos.map((logo) => (
             <div key={logo.file} className="h-24 rounded-2xl border border-divider bg-surface p-4 flex items-center justify-center shadow-sm">
               <img
-                src={`/Insurance logos/${logo.file}`}
+                src={`/insurance-logos/${logo.file}`}
                 alt={logo.alt}
                 loading="lazy"
                 className="max-h-full max-w-full object-contain"
@@ -573,13 +573,23 @@ function Gallery({ t }) {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
-          <div className="col-span-2 row-span-2 rounded-4xl overflow-hidden border border-divider min-h-[280px]">
+          <div className="col-span-2 row-span-2 rounded-4xl overflow-hidden border border-divider min-h-[280px] bg-background">
             <img src={clinicInfo.images.headshot} alt={clinicInfo.doctorName} className="h-full w-full object-cover" />
           </div>
-          {[1, 2, 3, 4, 5, 6].map((n) => (
-            <div key={n} className="rounded-3xl border border-dashed border-divider bg-background flex flex-col items-center justify-center gap-2 min-h-[130px] text-muted">
-              <ImageIcon className="h-6 w-6" strokeWidth={1.5} />
-              <span className="text-[10px] font-mono uppercase tracking-widest">{t.gallery.addPhoto}</span>
+          {[
+            { title: 'Welcoming reception', subtitle: 'Clean, calm entry space' },
+            { title: 'Consultation room', subtitle: 'Comfortable patient seating' },
+            { title: 'Advanced treatment', subtitle: 'Modern dermatology equipment' },
+            { title: 'Relaxing skincare', subtitle: 'Soothing clinic atmosphere' },
+            { title: 'Professional care', subtitle: 'Experienced medical team' },
+            { title: 'Trusted expertise', subtitle: 'Science-backed skin solutions' },
+          ].map((item, n) => (
+            <div key={n} className="rounded-3xl border border-divider bg-gradient-to-br from-white via-surface to-primary/5 p-5 flex flex-col justify-between min-h-[130px] shadow-sm">
+              <div className="space-y-2">
+                <div className="h-12 w-12 rounded-3xl bg-primary/10 flex items-center justify-center text-primary-dark text-lg font-semibold">AI</div>
+                <h3 className="font-display font-semibold text-base text-ink">{item.title}</h3>
+              </div>
+              <p className="text-sm text-muted">{item.subtitle}</p>
             </div>
           ))}
         </div>
