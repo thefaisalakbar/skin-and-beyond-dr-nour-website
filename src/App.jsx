@@ -1,14 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import {
   Menu, X, ArrowUpRight, ArrowRight, Phone, Mail, MapPin, Clock,
-  CheckCircle2, ChevronDown, Globe, MessageCircle, Star, Instagram,
+  CheckCircle2, ChevronDown, Globe, Star, Instagram,
   Microscope, Sparkles, Droplet, Leaf, SunMedium, Syringe, ShieldCheck,
   Gem, Award, HeartPulse, Users, Image as ImageIcon,
 } from 'lucide-react'
 import { content } from './i18n.js'
 import { clinicInfo } from './clinicInfo.js'
-import Chatbot from './components/Chatbot.jsx'
-
 const ICONS = {
   Microscope, Sparkles, Droplet, Leaf, SunMedium, Syringe, ShieldCheck,
   Gem, Award, HeartPulse, Users,
@@ -859,24 +857,6 @@ function Footer({ t }) {
 }
 
 /* ----------------------------------------------------------------
-   Floating WhatsApp button
----------------------------------------------------------------- */
-function WhatsAppButton({ t }) {
-  const rtl = t.dir === 'rtl'
-  return (
-    <a
-      href={clinicInfo.whatsappLink}
-      target="_blank"
-      rel="noreferrer"
-      className={`fixed bottom-6 ${rtl ? 'left-6' : 'right-6'} z-40 flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full p-4 shadow-xl shadow-emerald-500/30 magnetic-btn`}
-      aria-label={t.whatsappBubble}
-    >
-      <MessageCircle className="h-6 w-6" fill="currentColor" strokeWidth={0} />
-    </a>
-  )
-}
-
-/* ----------------------------------------------------------------
    App
 ---------------------------------------------------------------- */
 export default function App() {
@@ -904,8 +884,6 @@ export default function App() {
         <ContactForm t={t} />
       </main>
       <Footer t={t} />
-      <WhatsAppButton t={t} />
-      <Chatbot t={t} lang={lang} />
     </div>
   )
 }
