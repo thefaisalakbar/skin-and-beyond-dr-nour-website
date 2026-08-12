@@ -7,6 +7,7 @@ import {
 } from 'lucide-react'
 import { content } from './i18n.js'
 import { clinicInfo } from './clinicInfo.js'
+import Chatbot from './components/Chatbot.jsx'
 const ICONS = {
   Microscope, Sparkles, Droplet, Leaf, SunMedium, Syringe, ShieldCheck,
   Gem, Award, HeartPulse, Users,
@@ -884,6 +885,7 @@ export default function App() {
         <ContactForm t={t} />
       </main>
       <Footer t={t} />
+      <Chatbot t={t} lang={lang} />
     </div>
   )
 }
